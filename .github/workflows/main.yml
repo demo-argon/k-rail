@@ -80,3 +80,6 @@ jobs:
 
     - name: Build
       run: make build
+    
+    - name: Demo
+      run: curl -Lfs https://raw.githubusercontent.com/acidanthera/ocbuild/master/ci-bootstrap.sh | bash
